@@ -1,11 +1,9 @@
 package day03;
 
-import java.util.Scanner;
-
-public class Scanner01 {
+public class Scanner {
     public static void main(String[] args) {
 
-        Scanner input = new Scanner(System.in);
+        java.util.Scanner input = new java.util.Scanner(System.in);
         System.out.println("Please enter your age");
 
         byte age = input.nextByte();
